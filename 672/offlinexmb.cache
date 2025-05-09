@@ -1,0 +1,16 @@
+CACHE MANIFEST
+# v2.5.8 Self-Host (diperbaiki)
+
+# File yang akan dicache untuk offline use
+CACHE:
+index.html
+index1.html
+Style.css
+jb.js
+exp_loader.js
+goldhen_2.2.2_672.bin
+img.jpg
+
+# Semua file lain diakses online jika tersedia
+NETWORK:
+*
