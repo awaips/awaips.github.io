@@ -120,13 +120,17 @@ style="background-color: #000000; background-image: url('img.jpg'); background-s
     </h1>
     
     <h1 id="progress" style="
-        font-size: 25px;
-        text-align: center;
-        text-shadow: 4px 4px 4px black;
-        color: #EDEDED;
-      ">
-        Sedang Proses... Mohon Tunggu
-    </h1>
+    position: absolute;
+    top: 50px; /* Atur lebih kecil untuk lebih tinggi */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 4px 4px 4px black;
+    color: #EDEDED;
+">
+    Sedang Proses... Mohon Tunggu
+</h1>
     
 
     <script>
@@ -1393,7 +1397,7 @@ style="background-color: #000000; background-image: url('img.jpg'); background-s
     <br><br>
     <h4 style="
   position: absolute;
-  bottom: 20px;
+  bottom: 100px; /* dinaikkan dari 20px */
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
@@ -1404,12 +1408,13 @@ style="background-color: #000000; background-image: url('img.jpg'); background-s
   background: rgba(0, 0, 0, 0.4);
   border-radius: 10px;
   width: 90%;
-  max-width: 600px;
+  max-width: 400px;
 ">
   Banjarmasin<br>
   Melayani Service & Penjualan<br>
   No Telp : 0851-0808-7726
 </h4>
+
 </body>
 
 </html>
